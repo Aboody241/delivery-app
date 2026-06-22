@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tayar/core/utils/routing/approuter.dart';
 import 'package:tayar/features/splashscreen/splash_screen.dart';
 
 void main() {
@@ -15,8 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.purple),
+        colorScheme: .fromSeed(seedColor: Colors.blueAccent),
       ),
+
+      onGenerateRoute: AppRoutes.generateRoute,
       home: SplashScreen(),
     );
   }

@@ -1,79 +1,80 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'colors.dart';
 
 class AppTextStyles {
   // Headings
-  static const TextStyle h1 = TextStyle(
+  static final TextStyle h1 = GoogleFonts.poppins(
     fontSize: 32,
     fontWeight: FontWeight.bold,
     color: AppColors.textPrimary,
   );
 
-  static const TextStyle h2 = TextStyle(
+  static final TextStyle h2 = GoogleFonts.poppins(
     fontSize: 24,
     fontWeight: FontWeight.w700,
     color: AppColors.textPrimary,
   );
 
-  static const TextStyle h3 = TextStyle(
+  static final TextStyle h3 = GoogleFonts.poppins(
     fontSize: 20,
     fontWeight: FontWeight.w600,
     color: AppColors.textPrimary,
   );
 
   // Body
-  static const TextStyle bodyLarge = TextStyle(
+  static final TextStyle bodyLarge = GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w500,
     color: AppColors.textPrimary,
   );
 
-  static const TextStyle body = TextStyle(
+  static final TextStyle body = GoogleFonts.poppins(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.textPrimary,
   );
 
-  static const TextStyle bodySecondary = TextStyle(
+  static final TextStyle bodySecondary = GoogleFonts.poppins(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
   );
 
   // Small text
-  static const TextStyle caption = TextStyle(
+  static final TextStyle caption = GoogleFonts.poppins(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
   );
 
-  static const TextStyle hint = TextStyle(
+  static final TextStyle hint = GoogleFonts.poppins(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: AppColors.textHint,
   );
 
   // Buttons
-  static const TextStyle button = TextStyle(
+  static final TextStyle button = GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Colors.white,
   );
 
-  static const TextStyle buttonSecondary = TextStyle(
+  static final TextStyle buttonSecondary = GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: AppColors.primary,
   );
 
   // Special styles
-  static const TextStyle price = TextStyle(
+  static final TextStyle price = GoogleFonts.poppins(
     fontSize: 18,
     fontWeight: FontWeight.bold,
     color: AppColors.secondary,
   );
 
-  static const TextStyle titleCard = TextStyle(
+  static final TextStyle titleCard = GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: AppColors.textPrimary,
